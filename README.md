@@ -1,6 +1,4 @@
 # Authentication-System
-# Authentication System
-
 ## Overview
 
 This is a basic authentication system website built using Django. The system includes functionality for user login and logout.
