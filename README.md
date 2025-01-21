@@ -26,46 +26,46 @@ This is a basic authentication system website built using Django. The system inc
 ## Installation Instructions
 
 1. Clone the repository:
-   ```bash
+   
    git clone https://github.com/Aryan-1712/Authentication-System.git
-   ```
+   
 2. Navigate to the project directory:
-   ```bash
+   
    cd Authentication-System
-   ```
+   
 3. Create a virtual environment:
-   ```bash
+   
    python -m venv venv
-   ```
+   
 4. Activate the virtual environment:
    - On Windows:
-     ```bash
+   
      venv\Scripts\activate
-     ```
+   
    - On macOS/Linux:
-     ```bash
+   
      source venv/bin/activate
-     ```
+   
 5. Install dependencies:
-   ```bash
+   
    pip install -r requirements.txt
-   ```
+   
 6. Run database migrations:
-   ```bash
+   
    python manage.py migrate
-   ```
+   
 7. Create a superuser to access the admin panel:
-   ```bash
+   
    python manage.py createsuperuser
-   ```
+   
 8. Run the development server:
-   ```bash
+   
    python manage.py runserver
-   ```
+   
 9. Open the website in your browser:
-   ```
+   
    http://127.0.0.1:8000
-   ```
+   
 
 ## Usage
 
@@ -76,7 +76,7 @@ This is a basic authentication system website built using Django. The system inc
 
 ## Folder Structure
 
-```
+
 AuthProject/
 │-- manage.py
 │-- AuthApp/
@@ -90,7 +90,7 @@ AuthProject/
 │-- db.sqlite3
 │-- requirements.txt
 │-- README.md
-```
+
 
 ## Contributing
 
